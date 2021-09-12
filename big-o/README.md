@@ -13,3 +13,7 @@ O(n) is the basic of Big O Notation you can find.
 ## O(1) (Constant Time)
 
 The number of operation just stay constant depends of the number of element. Like in `example2.js`. No matter how many array element extracted from the `boxes` array, it always be O(1/2/3~) operation.
+
+## Excercise!
+
+Learn how to count how many Big O Notation process on single file (`challenge1.js`).
