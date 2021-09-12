@@ -16,4 +16,18 @@ The number of operation just stay constant depends of the number of element. Lik
 
 ## Excercise!
 
-Learn how to count how many Big O Notation process on single file (`challenge1.js`).
+Learn how to count how many Big O Notation process on single file (`challenge1.js and challenge2.js`).
+But if we simplifying the Big O, all of the file actually just `O(n)`.
+
+## Big O Rules
+
+There are 4 Rules of Big O
+
+### Worst Case Scenario
+
+To make our code to be more efficent, we need to make sure that every functions or tasks executed properly.
+For example, on `example1.js`, we have a function to `find Nemo`, but we know in the array, Nemo can be found on the fourth index of array. But the function forced to find the Nemo until the last index of Array, which is not efficient. So, we need to give a `break` when the `Nemo` is found.
+
+### Remove Constants
+
+On the Big O we don't really care how steep the line is, we care about the line moves as our inputs increases (`charts.jpeg`). For example, on `constants.js` we see that no matter if we drop other notation `(O(1) + O(100))`, it doesn't matter if the main input is 1 Million input. So basically we can simpiflying the Big O. Again, we care when the input bigger and bigger the number of operation still linear to the input, like on the `charts.jpeg`.
