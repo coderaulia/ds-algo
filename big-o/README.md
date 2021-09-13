@@ -31,3 +31,7 @@ For example, on `example1.js`, we have a function to `find Nemo`, but we know in
 ### Remove Constants
 
 On the Big O we don't really care how steep the line is, we care about the line moves as our inputs increases (`charts.jpeg`). For example, on `constants.js` we see that no matter if we drop other notation `(O(1) + O(100))`, it doesn't matter if the main input is 1 Million input. So basically we can simpiflying the Big O. Again, we care when the input bigger and bigger the number of operation still linear to the input, like on the `charts.jpeg`.
+
+### Different Term of Input
+
+Remember we can just remove the constants, but there's other case. If there's other input, we can adding up the input (O(a+b) or O(a\*b)). Like in `2input.js`, because there's 2 input, it makes the O become `a+b`. Also in `boxes.js`, we see that if there's a nested for loop, it become `O(n^2)` or n squared or if we look at the `charts.jpeg`, it become Quadratic time.
