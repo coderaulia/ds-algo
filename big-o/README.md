@@ -3,6 +3,13 @@
 Basically, Big O Notation is how well the problem is solved (by code obviously). But, what is good code?
 There are 2 criteria for a good code, Readable which is can be read by other programmers and also Scalable, code that can be scaled.
 
+## Good Code?
+
+-  [x] Readable.
+-  [x] Scalable = Speed (time complexity) & Memory (space complexity).
+-  When a program executes, we have to remember 2 things, the heap and the stack. The heap usually where we store variables that we assign values to. The stack is usually where we keep track of our functions call.
+-  What is causes space complexity? Variables, Data Structure, function call, Allocations. `spacecomp.js`.
+
 ## O(n) (linear time)
 
 We can test how well the code solve some problem using time. `O(n)` or linear time (on `example1.js`). But actually it depends on what kind of computer performance to test the time performance.
